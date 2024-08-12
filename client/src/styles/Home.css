@@ -1,0 +1,28 @@
+.btn{
+    background-color: #a85bff;
+}
+
+::-webkit-scrollbar {
+    width: 2px; /* Width of the entire scrollbar */
+    height: 2px; /* Height of the scrollbar for horizontal scrolling */
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f11e; /* Background of the scrollbar track */
+}
+
+@media (max-width: 480px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+        overflow: scroll;
+    }
+    thead{
+        display: none;
+    }
+    .sno{
+        background-color: #a85bff;
+    }
+    .github-icon{
+        
+    }
+
+}
